@@ -18,8 +18,8 @@ const Service = ({ SelectService, setSelectService, service }: Props) => {
       onClick={() => setSelectService(lowerCaseService)}
       className={`${
         SelectService === lowerCaseService
-          ? 'bg-[#6adcff] rounded-ss-[25px] xs:rounded-ss-[50px] sm:rounded-ss-[75px]'
-          : 'bg-[#ffffffd1] hover:bg-[#c2f1ff] rounded-lg'
+          ? 'bg-[#81c59f] rounded-ss-[25px] xs:rounded-ss-[50px] sm:rounded-ss-[75px]'
+          : 'bg-[#ffffffd1] hover:bg-[#81c59f] rounded-lg'
       }  cursor-pointer transition-all rounded-lg flex flex-col items-center gap-4 p-2 xs:p-4 lg:p-10 shadow-md `}
     >
       <img

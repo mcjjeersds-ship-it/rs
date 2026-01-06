@@ -10,6 +10,7 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -17,14 +18,15 @@
   overflow: hidden;
 }
 
-/* Styles for the scrollbar thumb */
+/* Scrollbar thumb (darker green) */
 ::-webkit-scrollbar-thumb {
-  background-color: #6aa6ff; /* Color of the thumb */
-  border-radius: 4px; /* Rounded corners for the thumb */
-}
-
-/* Styles for the scrollbar track */
-::-webkit-scrollbar-track {
-  background-color: #a7c4ff; /* Color of the track */
+  background-color: #4CAF50; /* green */
   border-radius: 4px;
 }
+
+/* Scrollbar track (lighter green) */
+::-webkit-scrollbar-track {
+  background-color: #C8E6C9; /* light green */
+  border-radius: 4px;
+}
+
