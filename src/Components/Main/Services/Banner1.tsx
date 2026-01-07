@@ -14,7 +14,7 @@ const Banner1 = () => {
           ))}
         </ul>
       </div>
-      <div className="bg-[#9ae7ff] shadow-xl rounded-2xl p-5 pb-0 max-w-xs md:max-w-md">
+      <div className="bg-[#bce6bf] shadow-xl rounded-2xl p-5 pb-0 max-w-xs md:max-w-md">
         <img src={Banner1Data.img} alt="Banner1" />
       </div>
     </div>

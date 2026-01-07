@@ -2,7 +2,7 @@ import { SelectedPage } from '@/Components/Shared/Types';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 type Props = {
-  page: string;
+ page: string;
   selectedPage: SelectedPage;
   setSelectedPage: (value: SelectedPage) => void;
   isMobile?: boolean;

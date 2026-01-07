@@ -8,7 +8,7 @@ import Reviews from './pages/Reviews';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
- return (
+  return (
     <Router basename="/Hospital-Website/home">
       <div className="text-[#1d4d85] app min-w-[280px] min-h-screen bg-background">
         <Header />

@@ -26,7 +26,7 @@ const NavBar = ({ flexBetween, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           </div>
-          <Button>Log In</Button>
+          {/* <Button>Log In</Button> */}
         </div>
       )}
       {!isAboveMediumScreens && (

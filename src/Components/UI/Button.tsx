@@ -4,7 +4,7 @@ type Props = {
 
 const Button = ({ children }: Props) => {
   return (
-    <button className="bg-primary transition hover:bg-[#158ace] px-8 py-1 shadow-lg rounded-3xl text-white">
+    <button className="bg-[#449c6b] transition hover:bg-[#81c59fff] px-8 py-1 shadow-lg rounded-3xl text-white">
       {children}
     </button>
   );

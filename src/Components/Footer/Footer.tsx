@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Footer = () => {
   return (
-    <div className="bg-[#aed4ff] mt-20 p-10 md:px-16">
+    <div className="bg-[#bce6bf] mt-20 p-10 md:px-16">
       <div className="max-w-[1250px] m-auto flex justify-center gap-14 flex-wrap md:flex-nowrap">
         <div className="font-bold">
           <img width={50} src={FooterData.logo} alt="Logo" />
