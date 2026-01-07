@@ -22,7 +22,7 @@ import user3 from '@/assets/Images/users/user3.jpg';
 
 import logo from '@/assets/Images/logo.png';
 
-export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
+export const links = ['Home', 'Information', 'Contact Us'];
 
 export const descNums = [
   {
@@ -264,5 +264,5 @@ export const FooterData = {
     'Surgery',
     'More',
   ],
-  links: links,
+  links: ['Home', 'Information', 'Contact Us'],
 };

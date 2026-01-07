@@ -1,5 +1,6 @@
 import { FooterData } from '../Shared/Consts';
 import ContactDiv from './ContactDiv';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Footer = () => {
   return (
@@ -25,7 +26,15 @@ const Footer = () => {
           </div>
           <ul>
             {FooterData.links.map((link, index) => (
-              <li key={index}>{link}</li>
+              <li key={index}>
+                {link === 'Information' ? (
+                  <AnchorLink href="#information">{link}</AnchorLink>
+                ) : link === 'Home' ? (
+                  <AnchorLink href="#home">{link}</AnchorLink>
+                ) : (
+                  <AnchorLink href={`#${link.toLowerCase()}`}>{link}</AnchorLink>
+                )}
+              </li>
             ))}
           </ul>
         </div>

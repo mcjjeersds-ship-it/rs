@@ -13,5 +13,18 @@ export default defineConfig({
       },
     ],
   },
-  base: '/Hospital-Website',
+  base: '/Hospital-Website/home',
+  server: {
+    historyApiFallback: {
+      // Redirect semua permintaan ke index.html
+      index: '/index.html',
+      // Atau konfigurasi lebih spesifik
+      rewrites: [
+        { from: /^\/Hospital-Website\/home\/antrian/, to: '/Hospital-Website/home/index.html' },
+        { from: /^\/Hospital-Website\/home/, to: '/Hospital-Website/home/index.html' },
+      ],
+      // Fallback untuk semua permintaan yang tidak cocok
+      verbose: false,
+    },
+  },
 });

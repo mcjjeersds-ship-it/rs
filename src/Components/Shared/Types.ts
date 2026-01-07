@@ -3,6 +3,9 @@ export enum SelectedPage {
   Doctors = 'doctors',
   Services = 'services',
   Reviews = 'reviews',
+  Information = 'information',
+  Antrian = 'antrian',
+  ContactUs = 'contactus',
 }
 
 export enum SelectedService {

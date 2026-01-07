@@ -49,6 +49,7 @@ const NavBar = ({ flexBetween, selectedPage, setSelectedPage }: Props) => {
             <Links
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              isMobile={true}
             />
           </div>
         </div>
